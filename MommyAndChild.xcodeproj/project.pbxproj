@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		012F84D01DF0F5B400B09D02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012F84CF1DF0F5B400B09D02 /* AppDelegate.swift */; };
-		012F84D21DF0F5B400B09D02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012F84D11DF0F5B400B09D02 /* ViewController.swift */; };
 		012F84D51DF0F5B400B09D02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012F84D31DF0F5B400B09D02 /* Main.storyboard */; };
 		012F84D81DF0F5B400B09D02 /* MommyAndChild.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 012F84D61DF0F5B400B09D02 /* MommyAndChild.xcdatamodeld */; };
 		012F84DA1DF0F5B400B09D02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 012F84D91DF0F5B400B09D02 /* Assets.xcassets */; };
 		012F84DD1DF0F5B400B09D02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012F84DB1DF0F5B400B09D02 /* LaunchScreen.storyboard */; };
 		012F84E81DF0F5B400B09D02 /* MommyAndChildTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012F84E71DF0F5B400B09D02 /* MommyAndChildTests.swift */; };
 		012F84F31DF0F5B500B09D02 /* MommyAndChildUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012F84F21DF0F5B500B09D02 /* MommyAndChildUITests.swift */; };
+		3B85B6091DF13B4600FB9F7E /* BeginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B85B6081DF13B4600FB9F7E /* BeginViewController.swift */; };
+		3B85B6151DF14AC600FB9F7E /* ChooseStateMomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B85B6141DF14AC600FB9F7E /* ChooseStateMomViewController.swift */; };
+		3B85B6241DF1544000FB9F7E /* PopBMMTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B85B6231DF1544000FB9F7E /* PopBMMTViewController.swift */; };
+		3B85B6261DF1545300FB9F7E /* PopBMNCNViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B85B6251DF1545300FB9F7E /* PopBMNCNViewController.swift */; };
+		3B85B6281DF1553E00FB9F7E /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B85B6271DF1553E00FB9F7E /* HomePageViewController.swift */; };
+		3B85B6301DF15D1700FB9F7E /* PopBMMSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B85B62F1DF15D1700FB9F7E /* PopBMMSViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +42,6 @@
 /* Begin PBXFileReference section */
 		012F84CC1DF0F5B400B09D02 /* MommyAndChild.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MommyAndChild.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		012F84CF1DF0F5B400B09D02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		012F84D11DF0F5B400B09D02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		012F84D41DF0F5B400B09D02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		012F84D71DF0F5B400B09D02 /* MommyAndChild.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MommyAndChild.xcdatamodel; sourceTree = "<group>"; };
 		012F84D91DF0F5B400B09D02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		012F84EE1DF0F5B500B09D02 /* MommyAndChildUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MommyAndChildUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		012F84F21DF0F5B500B09D02 /* MommyAndChildUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MommyAndChildUITests.swift; sourceTree = "<group>"; };
 		012F84F41DF0F5B500B09D02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B85B6081DF13B4600FB9F7E /* BeginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeginViewController.swift; sourceTree = "<group>"; };
+		3B85B6141DF14AC600FB9F7E /* ChooseStateMomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseStateMomViewController.swift; sourceTree = "<group>"; };
+		3B85B6231DF1544000FB9F7E /* PopBMMTViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopBMMTViewController.swift; path = PopChooseStateMom/PopBMMTViewController.swift; sourceTree = "<group>"; };
+		3B85B6251DF1545300FB9F7E /* PopBMNCNViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopBMNCNViewController.swift; path = PopChooseStateMom/PopBMNCNViewController.swift; sourceTree = "<group>"; };
+		3B85B6271DF1553E00FB9F7E /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		3B85B62F1DF15D1700FB9F7E /* PopBMMSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopBMMSViewController.swift; path = PopChooseStateMom/PopBMMSViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +109,11 @@
 		012F84CE1DF0F5B400B09D02 /* MommyAndChild */ = {
 			isa = PBXGroup;
 			children = (
+				3B85B6221DF1541700FB9F7E /* PopChooseStateMom */,
 				012F84CF1DF0F5B400B09D02 /* AppDelegate.swift */,
-				012F84D11DF0F5B400B09D02 /* ViewController.swift */,
+				3B85B6081DF13B4600FB9F7E /* BeginViewController.swift */,
+				3B85B6141DF14AC600FB9F7E /* ChooseStateMomViewController.swift */,
+				3B85B6271DF1553E00FB9F7E /* HomePageViewController.swift */,
 				012F84D31DF0F5B400B09D02 /* Main.storyboard */,
 				012F84D91DF0F5B400B09D02 /* Assets.xcassets */,
 				012F84DB1DF0F5B400B09D02 /* LaunchScreen.storyboard */,
@@ -126,6 +139,16 @@
 				012F84F41DF0F5B500B09D02 /* Info.plist */,
 			);
 			path = MommyAndChildUITests;
+			sourceTree = "<group>";
+		};
+		3B85B6221DF1541700FB9F7E /* PopChooseStateMom */ = {
+			isa = PBXGroup;
+			children = (
+				3B85B6231DF1544000FB9F7E /* PopBMMTViewController.swift */,
+				3B85B62F1DF15D1700FB9F7E /* PopBMMSViewController.swift */,
+				3B85B6251DF1545300FB9F7E /* PopBMNCNViewController.swift */,
+			);
+			name = PopChooseStateMom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,7 +219,6 @@
 				TargetAttributes = {
 					012F84CB1DF0F5B400B09D02 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 5VNQ389A9X;
 						ProvisioningStyle = Automatic;
 					};
 					012F84E21DF0F5B400B09D02 = {
@@ -265,9 +287,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				012F84D21DF0F5B400B09D02 /* ViewController.swift in Sources */,
+				3B85B6241DF1544000FB9F7E /* PopBMMTViewController.swift in Sources */,
+				3B85B6091DF13B4600FB9F7E /* BeginViewController.swift in Sources */,
 				012F84D81DF0F5B400B09D02 /* MommyAndChild.xcdatamodeld in Sources */,
+				3B85B6301DF15D1700FB9F7E /* PopBMMSViewController.swift in Sources */,
 				012F84D01DF0F5B400B09D02 /* AppDelegate.swift in Sources */,
+				3B85B6281DF1553E00FB9F7E /* HomePageViewController.swift in Sources */,
+				3B85B6151DF14AC600FB9F7E /* ChooseStateMomViewController.swift in Sources */,
+				3B85B6261DF1545300FB9F7E /* PopBMNCNViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +446,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5VNQ389A9X;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MommyAndChild/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Simson.MommyAndChild;
@@ -432,7 +459,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5VNQ389A9X;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MommyAndChild/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Simson.MommyAndChild;
@@ -518,6 +545,7 @@
 				012F84F91DF0F5B500B09D02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		012F84FA1DF0F5B500B09D02 /* Build configuration list for PBXNativeTarget "MommyAndChildTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +554,7 @@
 				012F84FC1DF0F5B500B09D02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		012F84FD1DF0F5B500B09D02 /* Build configuration list for PBXNativeTarget "MommyAndChildUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +563,7 @@
 				012F84FF1DF0F5B500B09D02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
